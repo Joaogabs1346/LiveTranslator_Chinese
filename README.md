@@ -3,6 +3,9 @@
 Real-time **Chinese → English** screen translator for Windows 10/11.
 Captures a region of your screen, runs OCR locally (PaddleOCR), translates with your **local Ollama** model and shows the result as a transparent, click-through overlay right on top of the original text. Built for games.
 
+<img width="1296" height="799" alt="image" src="https://github.com/user-attachments/assets/33e23ff1-b7ed-4eed-ba25-4b941d500e36" />
+
+
 ```
 SCREEN CAPTURE → CHINESE OCR → TEXT DETECTION → LOCAL OLLAMA → ENGLISH → OVERLAY
 ```
@@ -194,5 +197,4 @@ Covers: Ollama communication (mocked HTTP), response parsing (incl. `<think>` st
 - If the overlay covers the original text, use **Show original** or an **offset** (e.g. Y = +40) in Settings.
 - Use a smaller model if translations lag behind the dialog.
 
-## License
-MIT.
+
