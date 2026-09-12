@@ -1,0 +1,34 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Cache e bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.Python
+
+# Build / distribuicao
+build/
+dist/
+
+# Logs e dados locais
+*.log
+settings.json
+
+# Modelos de OCR baixados em runtime
+.paddleocr/
+
+# IDEs e sistema operacional
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
